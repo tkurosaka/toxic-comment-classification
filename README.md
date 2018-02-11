@@ -1,7 +1,11 @@
-# toxic-comment-classification
-My project is to take [Toxic Comment Classification Challeng](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge) on Kaggle.
+Data Science Introduction course project
 
-# Write up No. 1
+Name of Student: T. *Kuro* Kurosaka <kuro@bhlab.com>
+
+# The Project
+My project is to take the [Toxic Comment Classification Challeng](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge) on Kaggle.
+
+# Write Up No. 1
 
 1. What is the question you hope to answer?
    * Predict if a wikipedia commenent is "toxic" under 6 different cagetories.
@@ -17,13 +21,21 @@ My project is to take [Toxic Comment Classification Challeng](https://www.kaggle
    * I also have some background in NLP and I might be apply some technique for this challenge.
    * There is a chance to win a prize though the change seems less than the chance of winning a lottery. 
 
-# Write up No.2
-To be done
+# Write Up No.2
+To be done by 2/12
+
+1. What data have you gathered, and how did you gather it?
+1. How have you explored the data and what insights have you gained as a result?
+1. Will you be able to answer your question with this data, or do you need to gather more data (or adjust your question)?
+1. What modeling approach are you using to answer your question?
 
 # Notes
-* Suggested reading and a suggested package to use by Trent
+* Suggested reading by Trent
    * Tutorial in Scikit Learn: [Working with Text Data](http://scikit-learn.org/stable/tutorial/text_analytics/working_with_text_data.html)
-   * [Gensim: topic modelling for humans](https://radimrehurek.com/gensim/)
+* Toolkit that might help
+   * [Gensim: topic modelling for humans](https://radimrehurek.com/gensim/), suggested by Trent
+   * [NLTK = Natural Language Toolkit](http://www.nltk.org/), the only Python based NLP library I could find
+   
 * Top models
    * Top model as of 2/10 [Classifying multi-label comments (0.9741 lb)](https://www.kaggle.com/rhodiumbeng/classifying-multi-label-comments-0-9741-lb)
    * Jereny Howard's popular base line: [Minimal LSTM + NB-SVM baseline ensemble](https://www.kaggle.com/jhoward/minimal-lstm-nb-svm-baseline-ensemble)
