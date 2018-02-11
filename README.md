@@ -22,8 +22,8 @@ To be done
 
 # Notes
 * Suggested reading and a suggested package to use by Trent
-** Tutorial in Scikit Learn: [Working with Text Data](http://scikit-learn.org/stable/tutorial/text_analytics/working_with_text_data.html)
-** [Gensim: topic modelling for humans](https://radimrehurek.com/gensim/)
+   * Tutorial in Scikit Learn: [Working with Text Data](http://scikit-learn.org/stable/tutorial/text_analytics/working_with_text_data.html)
+   * [Gensim: topic modelling for humans](https://radimrehurek.com/gensim/)
 * Top models
-** Top model as of 2/10 [Classifying multi-label comments (0.9741 lb)](https://www.kaggle.com/rhodiumbeng/classifying-multi-label-comments-0-9741-lb)
-** Jereny Howard's popular base line: [Minimal LSTM + NB-SVM baseline ensemble](https://www.kaggle.com/jhoward/minimal-lstm-nb-svm-baseline-ensemble)
+   * Top model as of 2/10 [Classifying multi-label comments (0.9741 lb)](https://www.kaggle.com/rhodiumbeng/classifying-multi-label-comments-0-9741-lb)
+   * Jereny Howard's popular base line: [Minimal LSTM + NB-SVM baseline ensemble](https://www.kaggle.com/jhoward/minimal-lstm-nb-svm-baseline-ensemble)
