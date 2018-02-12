@@ -24,6 +24,12 @@ My project is to take the [Toxic Comment Classification Challeng](https://www.ka
 # Write Up No.2
 To be done by 2/12
 
+I have tried to follow the Scikit-Learn tutorial [Working with Text Data](http://scikit-learn.org/stable/tutorial/text_analytics/working_with_text_data.html) but it was hard. I might have a grasp of what they are saying but I don't have a very clear idea.
+
+My *kernel* (Kaggle-speak for notebook?) has been created but hasn't been submitted. Not sure if still exploring phase notebook should be submitted: https://www.kaggle.com/tkurosaka/toxic-comment-id-try-1 
+
+Instead of working on Kaggle, I created a local notebook for explortory work, which I intend to push to github at some point.
+
 1. What data have you gathered, and how did you gather it?
 1. How have you explored the data and what insights have you gained as a result?
 1. Will you be able to answer your question with this data, or do you need to gather more data (or adjust your question)?
