@@ -38,4 +38,7 @@ To be done by 2/12
    
 * Top models
    * Top model as of 2/10 [Classifying multi-label comments (0.9741 lb)](https://www.kaggle.com/rhodiumbeng/classifying-multi-label-comments-0-9741-lb)
-   * Jereny Howard's popular base line: [Minimal LSTM + NB-SVM baseline ensemble](https://www.kaggle.com/jhoward/minimal-lstm-nb-svm-baseline-ensemble)
+   * ~~Jeremy Howard's popular base line: [Minimal LSTM + NB-SVM baseline ensemble](https://www.kaggle.com/jhoward/minimal-lstm-nb-svm-baseline-ensemble)~~ (This was just combining two models according to the kernels listed below.)
+   * Jeremy Howard's [NB-SVM strong linear baseline](https://www.kaggle.com/jhoward/nb-svm-strong-linear-baseline)
+   * Jeremy Howard's [Improved LSTM baseline: GloVe + dropout](https://www.kaggle.com/jhoward/improved-lstm-baseline-glove-dropout)
+   
