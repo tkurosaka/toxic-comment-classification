@@ -22,7 +22,7 @@ My project is to take the [Toxic Comment Classification Challeng](https://www.ka
    * There is a chance to win a prize though the change seems less than the chance of winning a lottery. 
 
 # Write Up No.2
-To be done by 2/12
+To be done by 2/12 - in complete - sorry. See updates below.
 
 I have tried to follow the Scikit-Learn tutorial [Working with Text Data](http://scikit-learn.org/stable/tutorial/text_analytics/working_with_text_data.html) but it was hard. I might have a grasp of what they are saying but I don't have a very clear idea.
 
@@ -34,6 +34,12 @@ Instead of working on Kaggle, I created a local notebook for explortory work, wh
 1. How have you explored the data and what insights have you gained as a result?
 1. Will you be able to answer your question with this data, or do you need to gather more data (or adjust your question)?
 1. What modeling approach are you using to answer your question?
+
+# Update 2018-2-16
+I made a very basic model, just following [Working with Text Data](http://scikit-learn.org/stable/tutorial/text_analytics/working_with_text_data.html). No bigrams. No stopwords. The result doesn't seem that bad. Please seee [Toxic Comment Data Baseline](https://github.com/tkurosaka/toxic-comment-classification/blob/master/Toxic%20Comment%20Data%20Baseline.ipynb).
+To compare, I tried to run [NB-SVM strong linear baseline](https://www.kaggle.com/jhoward/nb-svm-strong-linear-baseline) locally but it timed out. I modified it to use only 1/10th of data, and further splitting it into test and training set. I further had to modify it to produce actual predicitons, not probabilities.  My base line is better for many labels, but that's probably because only 1/10th of the data was used.
+I will attempt to copy my notebook to Kaggle and submit just to see my score.
+Then I will start feature tuning locally, starting with using word n-grams and perhaps removing random symbols that Jeremy Howard is doing.
 
 # Notes
 * Suggested reading by Trent
