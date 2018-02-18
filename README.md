@@ -43,8 +43,10 @@ Then I will start feature tuning locally, starting with using word n-grams and p
 
 # Update 2018-2-17
 Published my notebook on Kaggle.
+
 Submitted the resulting data. The score was 0.8360. The top score so far is 0.9873. I'm probably around the bottom. (I could not figure out how to see my rank.)
-I will first try n-grams (n=3) and input text cleaning.
+
+I then tried ngram_range=(1,3). The resulting score was *lowered* to 0.7892.  It had a negative effect.  Next time I might try just bigrams, with ngram_range=(1,2).
 
 # Notes
 * Suggested reading by Trent
