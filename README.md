@@ -41,6 +41,11 @@ To compare, I tried to run [NB-SVM strong linear baseline](https://www.kaggle.co
 I will attempt to copy my notebook to Kaggle and submit just to see my score.
 Then I will start feature tuning locally, starting with using word n-grams and perhaps removing random symbols that Jeremy Howard is doing.
 
+# Update 2018-2-17
+Published my notebook on Kaggle.
+Submitted the resulting data. The score was 0.8360. The top score so far is 0.9873. I'm probably around the bottom. (I could not figure out how to see my rank.)
+I will first try n-grams (n=3) and input text cleaning.
+
 # Notes
 * Suggested reading by Trent
    * Tutorial in Scikit Learn: [Working with Text Data](http://scikit-learn.org/stable/tutorial/text_analytics/working_with_text_data.html)
